@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DemoPackage</fullName>
+    <types>
+        <members>DemoTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Demo__c.Amount__c</members>
+        <members>Demo__c.Policy__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Demo__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Demo__c-Demo Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Demo__c.Amount_should_be_greater_than_0</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>43.0</version>
+</Package>
