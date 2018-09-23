@@ -3,4 +3,7 @@ trigger DemoTrigger on Demo__c (before insert) {
         system.debug('Amount==>'+d.Amount__c);
     }
 	system.debug('test debug');
+	
+	
+	//testing second commit
 }
